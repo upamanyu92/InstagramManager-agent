@@ -30,11 +30,11 @@ See `darkside_prompt_generator.py` for ready-to-use template presets.
 Generate a prompt with a changing subject while preserving style identity:
 
 ```bash
-python /home/runner/work/InstagramManager-agent/InstagramManager-agent/darkside_prompt_generator.py --subject "A lone figure standing on a rain-slicked balcony overlooking a cyberpunk Neo-Tokyo cityscape."
+python darkside_prompt_generator.py --subject "A lone figure standing on a rain-slicked balcony overlooking a cyberpunk Neo-Tokyo cityscape."
 ```
 
 Use one of the built-in examples:
 
 ```bash
-python /home/runner/work/InstagramManager-agent/InstagramManager-agent/darkside_prompt_generator.py --use-case moody_cityscape
+python darkside_prompt_generator.py --use-case moody_cityscape
 ```
